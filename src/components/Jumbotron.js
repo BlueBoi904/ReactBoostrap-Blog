@@ -23,6 +23,10 @@ const Styles = styled.div`
     right: 0;
     z-index: -1;
   }
+
+  .main-header {
+    font-weight: 600;
+  }
 `;
 
 export const Jumbotron = () => {
@@ -31,8 +35,8 @@ export const Jumbotron = () => {
       <Jumbo fliud className="jumbo">
         <div className="overlay">
           <Container>
-            <h1>Welcome</h1>
-            <p>Learn to code from my blog</p>
+            <h1 className="main-header">Welcome</h1>
+            <p className="p-text">Learn to code from my blog</p>
           </Container>
         </div>
       </Jumbo>
