@@ -26,6 +26,7 @@ const Styles = styled.div`
 
   .main-header {
     font-weight: 600;
+    color: ;
   }
 `;
 
